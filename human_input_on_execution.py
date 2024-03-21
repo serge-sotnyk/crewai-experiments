@@ -36,8 +36,8 @@ task1 = Task(
   description="""Conduct a comprehensive analysis of the latest advancements in AI in 2024.
   Identify key trends, breakthrough technologies, and potential industry impacts.
   Compile your findings in a detailed report. 
-  Make sure to check with the human if the draft is good before returning your Final Answer.
-  Your final answer MUST be a full analysis report""",
+  Make sure to check with the human if the draft is good before returning your Final Answer.""",
+  expected_output="Your final answer MUST be a full analysis report",
   agent=researcher
 )
 
@@ -46,8 +46,8 @@ task2 = Task(
   post that highlights the most significant AI advancements.
   Your post should be informative yet accessible, catering to a tech-savvy audience.
   Aim for a narrative that captures the essence of these breakthroughs and their
-  implications for the future. 
-  Your final answer MUST be the full blog post of at least 3 paragraphs.""",
+  implications for the future.""",
+  expected_output="Your final answer MUST be the full blog post of at least 3 paragraphs.",
   agent=writer
 )
 

@@ -1,0 +1,8 @@
+crewai
+langchain_openai
+python-decouple
+textwrap3
+duckduckgo-search
+langchain-community
+tavily-python
+unstructured

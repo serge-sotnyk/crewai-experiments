@@ -1,3 +1,6 @@
 crewai
 langchain
+langchain-community
 duckduckgo-search
+unstructured
+tavily-python
